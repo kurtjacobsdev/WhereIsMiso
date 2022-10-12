@@ -88,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6631B29B28F72A4200A76F81 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		66B8ED0B28F432DB0089EA9A /* Packages */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +109,7 @@
 		66CED20728F4305B00FEB632 = {
 			isa = PBXGroup;
 			children = (
+				6631B29B28F72A4200A76F81 /* ci_scripts */,
 				66B8ED0B28F432DB0089EA9A /* Packages */,
 				66CED21228F4305B00FEB632 /* WhereIsMiso */,
 				66CED22928F4305C00FEB632 /* WhereIsMisoTests */,
