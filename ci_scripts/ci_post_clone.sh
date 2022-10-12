@@ -4,6 +4,7 @@ set -e
 which openssl
 brew install openssl
 echo 'export PATH="/usr/local/opt/openssl@3/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 
 echo $CI_PROJECT_FILE_PATH
 echo $CI_WORKSPACE
