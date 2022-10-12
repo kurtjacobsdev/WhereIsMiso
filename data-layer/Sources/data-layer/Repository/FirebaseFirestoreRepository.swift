@@ -43,7 +43,7 @@ public class FirebaseFirestoreRepository {
         if document.documentId.isEmpty {
             let writeableDocument = firestore.collection(collection.rawValue).document()
             try writeableDocument.setData(from: document)
-            try await writeableDocument.updateData(["userId": userId])
+            try await writeableDocument.updateData(["userId": userId, "documentId": writeableDocument.documentID])
         } else {
             let writeableDocument = firestore.collection(collection.rawValue).document(document.documentId)
             try writeableDocument.setData(from: document)

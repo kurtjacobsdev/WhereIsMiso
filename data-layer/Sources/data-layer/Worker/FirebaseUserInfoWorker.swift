@@ -10,7 +10,7 @@ import FirebaseAuth
 import domain_layer
 
 public class FirebaseUserInfoWorker: UserInfoWorker {
-    private var misoUID = "8PJFgBItzJXdBqjWpzKhhcilFEC2"
+    private var misoUID = "ZYb6TMR3jtSnQl765XYvnGpW3PM2"
     
     public init() {}
     
