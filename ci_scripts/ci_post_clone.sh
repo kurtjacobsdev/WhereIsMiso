@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+brew install openssl
+
 echo $CI_PROJECT_FILE_PATH
 echo $CI_WORKSPACE
 pwd
