@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		661971C528F5D58A004E6604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6631B29928F7118600A76F81 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		6631B29C28F74C0000A76F81 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		66B8ED0C28F432DB0089EA9A /* ui-layer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "ui-layer"; sourceTree = "<group>"; };
 		66B8ED0D28F432EA0089EA9A /* data-layer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "data-layer"; sourceTree = "<group>"; };
 		66B8ED0E28F432F00089EA9A /* domain-layer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "domain-layer"; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		6631B29B28F72A4200A76F81 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				6631B29C28F74C0000A76F81 /* ci_post_clone.sh */,
 			);
 			path = ci_scripts;
 			sourceTree = "<group>";
